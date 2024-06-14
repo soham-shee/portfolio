@@ -1,0 +1,287 @@
+body{
+    margin: 0;
+    color: #4a5255;
+    background-color: #f6f5ef;
+}
+
+.box{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    justify-items: center;
+    width: 70%;
+}
+
+.nav .logo{
+    display: flex;
+    font-stretch: expanded;
+    margin: 0;
+}
+
+.nav .logo a{
+    text-decoration: none;
+    color: #4a5255;
+}
+
+.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    text-align: center;
+    list-style-type: none;
+    width: fit-content;
+    
+}
+
+.nav li{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    text-align: center;
+    margin-top: 8px;
+    padding-left: 2rem;
+    color: #4a5255;
+    
+}
+
+.nav li svg{
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #4a5255;
+}
+
+.nav a:hover{
+    border-bottom: 1px solid;
+}
+
+.dsc{
+    width: 70%;
+    margin-top: 3rem;
+}
+
+.big{
+    font-size: 4rem;
+    width: fit-content;
+    margin: 0;
+    letter-spacing: 0.2rem;
+    font-weight: 400;
+    font-stretch: expanded;
+    background: linear-gradient(to right, #9845E8, #33D2FF,#DD5789);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.about{
+    text-align: justify;
+    word-spacing: 0.2rem;
+    line-height: 1.5rem;
+}
+
+.social{
+    display: flex;
+}
+
+.another{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+.rsidebar{
+width: 60%;
+}
+
+
+.lsidebar{
+    margin-top: 16px;
+    font-size: 20px;
+    width: 40%;
+}
+
+.recent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.lside{
+    margin-top: 0;
+    flex-direction: column;
+    margin-top: 0;
+    width: 70%;
+}
+
+.org{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.rside{
+    font-size: 14px;
+    margin: 16px;
+    width: 30%;
+    text-align: right;
+}
+
+.marks{
+    font-style: oblique;
+}
+
+.featured{
+
+    padding-top: 5px;
+    width: 70%;
+    margin-top: 3.5rem;
+}
+
+.featured a{
+    text-decoration: none;
+    color: #4a5255;
+}
+
+.gridProjects{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 2rem;
+    row-gap: 4rem;
+    grid-column-start: auto;
+}
+.grid-item-1, .grid-item-2, .grid-item-3, .grid-item-4{
+    width: 100%;
+    height: 338px;
+}
+
+.grid-item-1{
+    background: url("https://cdn.pixabay.com/photo/2020/09/18/12/54/strommast-5581755_1280.jpg") center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-blend-mode:multiply;
+}
+
+.grid-item-2{
+    background: url("https://cdn.pixabay.com/photo/2018/05/16/22/55/nixie-3407293_1280.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     background-blend-mode:multiply;
+}
+
+.grid-item-3{
+    background: url("https://miro.medium.com/v2/resize:fit:1400/0*SrXRSuOQwYkTXaLS") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     background-blend-mode:multiply;
+}
+
+.grid-item-4{
+    background: url("https://cdn.storifyme.com/accounts/cashify-in-0561312/assets/f-google2-12841695550707644.jpeg?t=1695550737000") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+     background-blend-mode:multiply;
+}
+
+.f-name{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.content-f{
+    font-style: italic;
+    margin-top: 8px;
+}
+
+.feautured-title{
+    font-size: 20px;
+
+}
+
+.ft-part{
+    margin-top: 3rem;
+    width: 70%;
+}
+
+.s-box{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    justify-items: center;
+    padding-bottom: 8rem;
+    padding-top:2.5rem;
+}
+
+.kaggle-btn, .linkedin-btn, .github-btn{
+    padding: 10px;
+    border: 1px solid #c6c6c6;
+    width: 20%;
+    height: fit-content;
+    text-align: center;
+}
+
+.kaggle-btn a, .linkedin-btn a, .github-btn a{
+    color: #4a5255;
+    text-decoration: none;
+}
+
+svg{
+    width: 14px;
+    height: 14px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+    svg {
+      display: none;
+    }
+    .kaggle-btn, .linkedin-btn, .github-btn{
+        width: fit-content;
+        margin: 10px;
+    }
+    .big{
+        font-size: 3rem;
+    }
+
+    .grid-item-1, .grid-item-2, .grid-item-3, .grid-item-4{
+        width: 100%;
+        height: 140px;
+    }
+  }
+
+  @media screen and (max-width: 868px){
+    .gridProjects{
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 2rem;
+        row-gap: 4rem;
+        grid-column-start: auto;
+    }
+  }
